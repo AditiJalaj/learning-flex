@@ -1,54 +1,19 @@
-
 import './App.css';
+import Flexdirection from './components/Flexdirection';
+import {BrowserRouter as Router, Switch, Link, Route } from 'react-router-dom'
+import Container from './components/Container';
+import JustifyContent from './components/JustifyContent';
 
 function App() {
   return (
-    <>
-     <h1>hello</h1>
-    <div className="each">
-    <h5 class="heading">flex-direction:row</h5>
-    <div className="row">
-    <p>Item 1</p>
-    <p >Item 2</p>
-    <p>Item 3 </p>
-    <p>Item 4 </p>
-    </div>
-    </div>
-
-
-    <div className="each">
-    <h5 class="heading">flex-direction:row-reverse</h5>
-    <div className="row-reverse">
-    <p>Item 1</p>
-    <p >Item 2</p>
-    <p>Item 3 </p>
-    <p>Item 4 </p>
-    </div>
-    </div>
-
-    <div className="each">
-    <h5 class="heading">flex-direction:column</h5>
-    <div className="column">
-    <p>Item 1</p>
-    <p >Item 2</p>
-    <p>Item 3 </p>
-    <p>Item 4 </p>
-    </div>
-    </div>
-
-    <div className="each">
-    <h5 class="heading">flex-direction:column-reverse</h5>
-    <div className="column-reverse">
-    <p>Item 1</p>
-    <p >Item 2</p>
-    <p>Item 3 </p>
-    <p>Item 4 </p>
-    </div>
-    </div>
-
-
-
-    </>
+    <Router>
+     <h1 style={{textAlign:"center"}}>Choose property</h1>
+     <Container/>
+     <Switch>
+     <Route exact path='/flexdirection' component={Flexdirection}/>
+     <Route exact path='/justifycontent' component={JustifyContent}/>
+     </Switch>
+    </Router>
   );
 }
 
