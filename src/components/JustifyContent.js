@@ -23,6 +23,25 @@ const JustifyContent = () => {
     <p>Item 4 </p>
     </div>
     </div>
+    <div className="each">
+    <h5 class="heading">flex-direction:column &  justify-content:center</h5>
+    <div className="column column center">
+    <p>Item 1</p>
+    <p>Item 2</p>
+    <p>Item 3</p>
+    <p>Item 4</p>
+    </div>
+    </div>
+
+    <div className="each">
+    <h5 class="heading">flex-direction:column &  justify-content:space-between</h5>
+    <div className="column column space-between">
+    <p>Item 1</p>
+    <p>Item 2</p>
+    <p>Item 3</p>
+    <p>Item 4</p>
+    </div>
+    </div>
 
     <div className="each">
     <h5 class="heading">justify-content:center</h5>

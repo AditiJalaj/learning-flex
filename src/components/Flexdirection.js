@@ -4,7 +4,8 @@ import '../App.css'
 const Flexdirection = () => {
     return ( <>
        <strong>The flex-direction property defines in which direction the container wants to stack the flex items.</strong> 
-        <div className="each">
+        
+       <div className="each">
     <h5 class="heading">flex-direction:row</h5>
     <div className="row">
     <p>Item 1</p>

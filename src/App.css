@@ -26,6 +26,7 @@ strong{
 .column{
   display: flex;
   flex-direction: column;
+  height: 700px;
 }
 .column-reverse{
   display: flex;
@@ -79,4 +80,7 @@ p{
   margin:0.2rem;
   border:2px solid white;
   background-color: #9D174D;
+}
+p:hover{
+  opacity: 0.7;
 }
