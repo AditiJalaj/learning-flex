@@ -31,17 +31,20 @@ strong{
 .column-reverse{
   display: flex;
   flex-direction: column-reverse;
+  height: 700px;
 }
 
 /* justify-content */
 .flex-start{
   display: flex;
   justify-content: flex-start;
+ 
 }
 
 .flex-end{
   display: flex;
   justify-content: flex-end;
+ 
 }
 .center{
   display: flex;
@@ -62,6 +65,34 @@ strong{
 .initial{
   display: flex;
   justify-content:initial;
+}
+
+/*aling-items*/
+.align-flex-start{
+  display: flex;
+  height:400px;
+  align-items: flex-start;
+  
+}
+.align-flex-end{
+  display: flex;
+  height:400px;
+  align-items: flex-end;
+}
+.align-center{
+  display: flex;
+  height:300px;
+  align-items: center;
+}
+.align-stretch{
+  display: flex;
+  height:300px;
+  align-items: stretch;
+}
+.align-baseline{
+  display: flex;
+  height:300px;
+  align-items: baseline;
 }
 
 .each{

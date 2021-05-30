@@ -4,7 +4,7 @@ const JustifyContent = () => {
     return ( <> 
         <strong>Justify content is used to align flex items along the main axis.</strong>
 
-        <div className="each">
+     <div className="each">
     <h5 class="heading">justify-content:flex-start</h5>
     <div className="flex-start">
     <p>Item 1</p>

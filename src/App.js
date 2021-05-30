@@ -3,7 +3,7 @@ import Flexdirection from './components/Flexdirection';
 import {BrowserRouter as Router, Switch, Link, Route } from 'react-router-dom'
 import Container from './components/Container';
 import JustifyContent from './components/JustifyContent';
-
+import AlignItems from './components/AlignItems'
 function App() {
   return (
     <Router>
@@ -12,6 +12,7 @@ function App() {
      <Switch>
      <Route exact path='/flexdirection' component={Flexdirection}/>
      <Route exact path='/justifycontent' component={JustifyContent}/>
+     <Route exact path='/alignitems' component={AlignItems}/>
      </Switch>
     </Router>
   );
