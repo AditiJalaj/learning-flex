@@ -6,16 +6,20 @@ body{
 .container{
   padding:10px;
   margin:100px;
+  border:1px solid white;
+  display: flex;
+}
+.container p{
+  padding:1rem;
 }
 strong{
   border: 1px solid white;
   padding:10px;
   margin:2rem;
 }
-
 .each{
   border:1px solid white;
-  padding:2rem;
+  padding:1rem;
   margin:1rem;
   margin-bottom:2rem;
  

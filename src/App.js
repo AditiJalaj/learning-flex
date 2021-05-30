@@ -10,12 +10,15 @@ function App() {
   return (
     <Router>
      <h1 style={{textAlign:"center"}}>Choose property</h1>
+     
      <Container/>
      <Switch>
      <Route exact path='/flexdirection' component={Flexdirection}/>
      <Route exact path='/justifycontent' component={JustifyContent}/>
      <Route exact path='/alignitems' component={AlignItems}/>
      <Route exact path='/flexwrap' component={FlexWrap}/>
+     
+     
      </Switch>
     </Router>
   );
