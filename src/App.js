@@ -4,6 +4,8 @@ import {BrowserRouter as Router, Switch, Link, Route } from 'react-router-dom'
 import Container from './components/Container';
 import JustifyContent from './components/JustifyContent';
 import AlignItems from './components/AlignItems'
+import FlexWrap from './components/FlexWrap';
+
 function App() {
   return (
     <Router>
@@ -13,6 +15,7 @@ function App() {
      <Route exact path='/flexdirection' component={Flexdirection}/>
      <Route exact path='/justifycontent' component={JustifyContent}/>
      <Route exact path='/alignitems' component={AlignItems}/>
+     <Route exact path='/flexwrap' component={FlexWrap}/>
      </Switch>
     </Router>
   );

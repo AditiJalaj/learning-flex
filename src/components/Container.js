@@ -9,6 +9,8 @@ const Container = () => {
     <Link style={{color:"white",textDecoration:"none"}} to='/justifycontent' ><p>Justify-content</p> </Link>
     
     <Link style={{color:"white",textDecoration:"none"}} to='/alignitems' ><p>Align-items</p> </Link>
+
+    <Link style={{color:"white",textDecoration:"none"}} to='/flexwrap' ><p>Flex-wrap</p> </Link>
     </div>
       );
 }
