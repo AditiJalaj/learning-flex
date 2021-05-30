@@ -6,6 +6,7 @@ import Container from './components/ParentContainer/Container';
 import JustifyContent from './components/ParentContainer/JustifyContent';
 import AlignItems from './components/ParentContainer/AlignItems'
 import FlexWrap from './components/ParentContainer/FlexWrap';
+import AlignContent from './components/ParentContainer/AlignContent'
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
      <Route exact path='/justifycontent' component={JustifyContent}/>
      <Route exact path='/alignitems' component={AlignItems}/>
      <Route exact path='/flexwrap' component={FlexWrap}/>
-     
+     <Route exact path='/aligncontent' component={AlignContent}/>
      
      </Switch>
     </Router>

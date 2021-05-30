@@ -3,7 +3,7 @@ const FlexWrap = () => {
     return ( <>
         <strong>The flex-wrap property specifies whether the flex items should wrap or not.</strong>
         
-        <div className="each">
+     <div className="each">
     <h5 class="heading">flex-wrap: no value given</h5>
     <div className="flex-start">
     <p>Item 1</p>
