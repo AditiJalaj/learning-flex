@@ -1,10 +1,11 @@
 import './App.css';
-import Flexdirection from './components/Flexdirection';
+
+import Flexdirection from './components/ParentContainer/Flexdirection';
 import {BrowserRouter as Router, Switch, Link, Route } from 'react-router-dom'
-import Container from './components/Container';
-import JustifyContent from './components/JustifyContent';
-import AlignItems from './components/AlignItems'
-import FlexWrap from './components/FlexWrap';
+import Container from './components/ParentContainer/Container';
+import JustifyContent from './components/ParentContainer/JustifyContent';
+import AlignItems from './components/ParentContainer/AlignItems'
+import FlexWrap from './components/ParentContainer/FlexWrap';
 
 function App() {
   return (

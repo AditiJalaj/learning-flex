@@ -1,4 +1,4 @@
-import '../App.css'
+import '../../App.css'
 const FlexWrap = () => {
     return ( <>
         <strong>The flex-wrap property specifies whether the flex items should wrap or not.</strong>
